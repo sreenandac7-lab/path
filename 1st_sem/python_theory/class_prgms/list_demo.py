@@ -5,5 +5,8 @@ for number in range(5):
     my_mark.append(new_marks)
 print("List elements are:")
 for i in range(len(my_mark)):
-    print("y_mark")
-  
+    print("my_mark")
+
+for i in range(len(my_mark)):
+    sum+=my_mark[i]
+    

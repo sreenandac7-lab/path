@@ -17,5 +17,13 @@ int validate_array_size(int array_size){
     if(array_size >4){
         return 1;
     }
-    return 0;
+
+// array initialization
+int i;
+int my_array[array_size];
+for (int i=0; i< array_size; i++);
+{
+    printf("enter %d array element:",i+1);
+    scanf("%d\n",&my_array[i]);
+}
 }
